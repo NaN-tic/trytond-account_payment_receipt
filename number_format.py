@@ -127,9 +127,9 @@ def integer_to_literal(input_int, lang_code):
     if input_int in UNITS and lang_code in UNITS[input_int]:
         return UNITS[input_int][lang_code]
 
-    million = int(math.floor(Decimal(str(input_int)) / 1000000))
+    million = int(math.floor(Decimal(str(input_int)) // 1000000))
     thousands = input_int - million * 1000000
-    thousands = int(math.floor(Decimal(str(thousands)) / 1000))
+    thousands = int(math.floor(Decimal(str(thousands)) // 1000))
     hundreds = input_int - million * 1000000 - thousands * 1000
 
     def __convert_hundreds(input_hundred):
