@@ -112,7 +112,7 @@
 		<fieldDescription><![CDATA[/data/record/bank_account/rec_name]]></fieldDescription>
 	</field>
 	<field name="receipt_number" class="java.lang.String">
-		<fieldDescription><![CDATA[/data/record/line/move/post_number]]></fieldDescription>
+		<fieldDescription><![CDATA[/data/record/line/move/number]]></fieldDescription>
 	</field>
 	<field name="description" class="java.lang.String">
 		<fieldDescription><![CDATA[/data/record/description]]></fieldDescription>
