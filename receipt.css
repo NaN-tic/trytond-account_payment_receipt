@@ -1,0 +1,225 @@
+@page {
+  size: A5 landscape;
+  margin: 0.7cm;
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial';
+  font-size: 10px;
+  color: #000;
+}
+
+.receipt-page {
+  position: relative;
+  width: 19.6cm;
+  height: 12.8cm;
+  overflow: hidden;
+}
+
+.receipt-company {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 11.7cm;
+  min-height: 2.45cm;
+  display: flex;
+  align-items: flex-start;
+  color: #666;
+}
+
+.receipt-logo {
+  width: auto;
+  max-width: 2.85cm;
+  max-height: 2.35cm;
+}
+
+.receipt-company-info {
+  flex: 1;
+  margin-left: 0.25cm;
+  font-size: 9px;
+}
+
+.company-info-name {
+  font-weight: bold;
+}
+
+.blue-box {
+  position: absolute;
+  background: #ddeeff;
+}
+
+.receipt-field {
+  padding: 0.12cm 0.2cm;
+  box-sizing: border-box;
+}
+
+.field-label {
+  display: block;
+  font-size: 9px;
+  text-align: center;
+}
+
+.field-label.inline {
+  text-align: left;
+  margin-bottom: 0.08cm;
+}
+
+.field-value {
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.15;
+  margin-top: 0.12cm;
+}
+
+.receipt-number-box {
+  top: 2.95cm;
+  left: 0;
+  width: 3.52cm;
+  height: 1.24cm;
+}
+
+.invoice-number-box {
+  top: 2.95cm;
+  left: 4.12cm;
+  width: 3.52cm;
+  height: 1.24cm;
+}
+
+.amount-number-box {
+  top: 2.95cm;
+  left: 15.7cm;
+  width: 3.9cm;
+  height: 1.24cm;
+}
+
+.amount-number-value {
+  font-size: 10px;
+}
+
+.receipt-date-box {
+  top: 4.5cm;
+  left: 0;
+  width: 7.65cm;
+  height: 1.24cm;
+}
+
+.maturity-box {
+  top: 4.5cm;
+  left: 11.0cm;
+  width: 8.6cm;
+  height: 1.24cm;
+}
+
+.receipt-note {
+  position: absolute;
+  top: 5.85cm;
+  left: 11.1cm;
+  width: 8.5cm;
+  text-align: center;
+  font-size: 8px;
+}
+
+.receipt-amount {
+  position: absolute;
+  top: 6.45cm;
+  left: 0;
+  width: 19.6cm;
+  height: 1.66cm;
+  padding: 0.12cm 0.18cm;
+  box-sizing: border-box;
+}
+
+.amount-literal {
+  margin: 0.08cm 0 0 0;
+  text-align: center;
+  font-size: 10px;
+  line-height: 1.15;
+}
+
+.receipt-payment-section {
+  position: absolute;
+  top: 8.65cm;
+  left: 0;
+  width: 19.6cm;
+  height: 2.15cm;
+}
+
+.receipt-payment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13.73cm;
+  height: 2.15cm;
+  padding: 0.12cm 0.18cm;
+  box-sizing: border-box;
+}
+
+.section-title {
+  margin: 0 0 0.12cm 0;
+  font-size: 10px;
+}
+
+.payment-row {
+  display: grid;
+  grid-template-columns: 3.7cm 1fr;
+  margin-bottom: 0.1cm;
+}
+
+.side-label {
+  font-size: 9px;
+  text-align: left;
+}
+
+.receipt-account {
+  position: absolute;
+  top: 0;
+  left: 14.18cm;
+  width: 5.42cm;
+  height: 2.15cm;
+  padding: 0.12cm 0.18cm;
+  box-sizing: border-box;
+}
+
+.account-label {
+  text-align: center;
+  margin-bottom: 0.18cm;
+}
+
+.account-value {
+  margin: 0.2cm 0 0 0;
+  text-align: center;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.receipt-bottom {
+  position: absolute;
+  top: 11.15cm;
+  left: 0;
+  width: 19.6cm;
+  height: 1.6cm;
+  padding: 0.12cm 0.18cm;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 0.95fr;
+  align-items: center;
+}
+
+.receipt-description {
+  font-size: 9px;
+  line-height: 1.15;
+}
+
+.receipt-company-sign {
+  text-align: center;
+  font-size: 10px;
+}
