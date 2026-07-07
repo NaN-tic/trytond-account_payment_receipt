@@ -1,3 +1,4 @@
+
 # The COPYRIGHT file at the top level of this repository contains the full
 # copyright notices and license terms.
 from dominate.tags import div, img, p, span
@@ -9,8 +10,7 @@ from trytond.transaction import Transaction
 from trytond.modules.html_report import words
 from trytond.modules.html_report.dominate_report import DominateReport
 from trytond.modules.html_report.engine import render as html_render
-from trytond.modules.html_report.i18n import _
-
+from trytond.modules.xgettext import _
 
 class Payment(metaclass=PoolMeta):
     __name__ = 'account.payment'
@@ -21,7 +21,6 @@ class Payment(metaclass=PoolMeta):
     def get_amount_literal(self, name):
         lang_code = self.party.lang.code if self.party and self.party.lang else None
         return words.number_to_words(self.amount, lang=lang_code)
-
 
 class Receipt(DominateReport):
     __name__ = 'account.payment.receipt'
