@@ -2,51 +2,51 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "ACCOUNT NUM."
 msgstr "NÚM COMPTE"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "ADDRESS"
 msgstr "DIRECCIÓ"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "DATE"
 msgstr "DATA"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "For this RECEIPT you will pay on specified maturity"
 msgstr "Per aquest REBUT vostè pagarà al venciment expressat"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "IMPORT EUROS"
 msgstr "IMPORT EUROS"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "INVOICE NUM."
 msgstr "FACTURA NÚM."
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "MATURITY"
 msgstr "VENCIMENT"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "PERSON OR ENTITY"
 msgstr "PERSONA O ENTITAT"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "RECEIPT NUM."
 msgstr "REBUT NÚM."
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "Phone"
 msgstr "Telèfon"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "payment at the address below:"
 msgstr "al domicili de pagament següent:"
 
-msgctxt "html_report:h:"
+msgctxt "xgettext:x:"
 msgid "the quantity of:"
 msgstr "la quantitat de:"
 
